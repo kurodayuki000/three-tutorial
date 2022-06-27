@@ -52,13 +52,13 @@ const cubeCamera = new THREE.CubeCamera(1, 1000, cubeRenderTarget);
 scene.add(cubeCamera);
 
 //object
-// const material = new THREE.MeshBasicMaterial({
-//   envMap: cubeRenderTarget.texture,
-//   reflectivity: 1
-// });
-// const geometry = new THREE.SphereGeometry(350, 50, 50);
-// const sphere = new THREE.Mesh(geometry,material);
-// scene.add(sphere);
+const material = new THREE.MeshBasicMaterial({
+  envMap: cubeRenderTarget.texture,
+  reflectivity: 1
+});
+const geometry = new THREE.SphereGeometry(350, 50, 50);
+const sphere = new THREE.Mesh(geometry,material);
+scene.add(sphere);
 
 const animation = () => {
   controls.update();
