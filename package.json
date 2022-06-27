@@ -1,6 +1,5 @@
 {
-  "name": "vite-three-tutorial",
-  "private": true,
+  "name": "threejs-scroll-animation-setup-youtube",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,9 +7,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.9.9"
+    "vite": "^2.7.2"
   },
   "dependencies": {
-    "three": "^0.141.0"
+    "three": "^0.137.4"
   }
 }
